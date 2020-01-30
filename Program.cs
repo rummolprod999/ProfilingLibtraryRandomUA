@@ -6,7 +6,11 @@ namespace ProfilingLibtraryRandomUA
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            for (var i = 0; i <= 10000000; i++)
+            {
+                var rand = RandomUserAgent.RandomUa.RandomUserAgent;
+                Console.WriteLine(rand);
+            }
         }
     }
 }

@@ -1,11 +1,36 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "RandomUserAgent/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.0/RandomUserAgent.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/RandomUserAgent.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "RandomUserAgent/1.0.0": {
+      "sha512": "6tMJVv+0R9LR/G5Y0vaNnDPMtTzolYtudKw5AQmzCsYxa52O+wru37W3wNccE8l/r8jQTyWeN8bjFKjGee4Zhg==",
+      "type": "package",
+      "path": "randomuseragent/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp2.0/RandomUserAgent.dll",
+        "randomuseragent.1.0.0.nupkg.sha512",
+        "randomuseragent.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "RandomUserAgent >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/alex/.nuget/packages/": {},
@@ -46,6 +71,12 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "dependencies": {
+          "RandomUserAgent": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

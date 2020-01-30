@@ -8,13 +8,14 @@
     <e p="$USER_HOME$/.Rider2019.3/system/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_ProfilingLibtraryRandomUA.-2064427308.00" t="ExcludeRecursive" />
     <e p="$USER_HOME$/.Rider2019.3/system/rust_expanded_macros/uXeKFGJs/expansions" t="IncludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p=".git/info/exclude" t="IncludeRecursive" />
       <e p=".gitignore" t="Include" />
       <e p="ProfilingLibtraryRandomUA.csproj" t="IncludeRecursive" />
       <e p="ProfilingLibtraryRandomUA.sln" t="IncludeFlat" />
       <e p="Program.cs" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive">
-        <e p="Debug" t="Include">
+        <e p="Release" t="Include">
           <e p="netcoreapp3.1" t="Include">
             <e p="ProfilingLibtraryRandomUA.AssemblyInfo.cs" t="Include" />
           </e>
